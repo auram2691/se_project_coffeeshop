@@ -5,6 +5,7 @@
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__title {
@@ -22,7 +23,9 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
+  font-weight: normal;
 }
+
 .header__description {
   margin: 28px 0 0;
   max-width: 683px;
@@ -39,6 +42,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -46,6 +50,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  font-weight: normal;
+  color: #0a2850;
 }
 
 .header__paragraph {

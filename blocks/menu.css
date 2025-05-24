@@ -4,6 +4,8 @@
   flex-direction: column;
   align-items: center;
   background-color: #ffffff;
+  background: center / cover no-repeat #fff url(../images/background_menu.svg);
+  position: relative;
 }
 
 .menu__title {
@@ -13,6 +15,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  max-width: 780px;
 }
 
 .menu__subtitle {
@@ -22,9 +25,10 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  max-width: 780px;
 }
 
-.menu__card {
+.menu__cards {
   margin: 0;
   padding: 0;
   list-style: none;

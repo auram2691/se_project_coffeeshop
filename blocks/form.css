@@ -8,6 +8,8 @@
   border: none;
 }
 .form__input {
+  font-size: 44px;
+  line-height: 52px;
   display: block;
   width: 100%;
   padding: 15px 20px;
@@ -24,20 +26,12 @@
   padding: 20px 0;
   margin-bottom: 32px;
   cursor: pointer;
-  transform: background-color 0.5s;
+  transition: background-color 0.5s;
+  background-color: #1878dc;
 }
 
 .form__button:hover {
   background-color: #3f96f3;
-  opacity: 0.7;
-}
-
-.footer__social-link {
-  transition: color 0.3 ease;
-}
-
-.footer__social-link:hover {
-  color: #c1c1c1;
 }
 
 .form__checkbox {
