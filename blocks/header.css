@@ -1,6 +1,7 @@
 .header {
   padding: 30px 80px 40px;
-  background: center / cover no-repeat #fff url(../images/background_header.svg);
+  background: center / cover no-repeat #ffffff
+    url(../images/background_header.svg);
   position: relative;
   height: 800px;
   display: flex;
@@ -50,8 +51,12 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  font-weight: normal;
-  color: #0a2850;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
 }
 
 .header__paragraph {

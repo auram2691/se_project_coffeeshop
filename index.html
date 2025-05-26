@@ -53,10 +53,12 @@
           alt="illustration of a coffee shop"
           class="header__image"
         />
-        <div>
+        <div class="header__footer">
           <p class="header__paragraph">Hours:</p>
           <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
           <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+        </div>
+        <div>
           <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
@@ -151,9 +153,10 @@
             >
               <input
                 class="form__input"
+                class="form__checkbox"
                 id="form-input"
                 type="checkbox"
-                requered
+                required
               />
               I agree with the terms of use
             </label>
@@ -249,7 +252,9 @@
             </p>
           </div>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div
+            class="about__circle_animation about__circle_animation_blurred"
+          ></div>
         </section>
       </main>
       <footer id="contacts" class="footer">
